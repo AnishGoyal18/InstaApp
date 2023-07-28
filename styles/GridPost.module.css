@@ -1,0 +1,54 @@
+.grid_post {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+}
+
+.post_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.post_header .userInfo {
+    display: flex;
+    align-items: center;
+}
+
+.post_header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.post_header .user {
+    cursor: pointer;
+}
+
+.post_header .username {
+    cursor: pointer;
+}
+
+.post_header .location {
+    font-size: small;
+}
+
+.post_header .menu_dots {
+    cursor: pointer;
+}
+
+.post_footer .description {
+    display: flex;
+    margin-right: 10px;
+}
+
+.post_img {
+    width: 290px;
+    height: 220px;
+}

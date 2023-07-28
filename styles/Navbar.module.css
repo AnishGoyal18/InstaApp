@@ -1,0 +1,23 @@
+.navbar {
+    display: none;
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 14px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.icons {
+    display: flex;
+}
+
+.icons :first-child {
+    margin-right: 5px;
+}
