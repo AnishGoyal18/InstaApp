@@ -50,7 +50,7 @@ const UserProfilePage = () => {
                 setProfileInfo(res);
                 console.log(res);
             } catch (error) {
-                console.error('Error fetching profile:', error);
+                console.error('Error', error);
                 router.back();
             }
         };

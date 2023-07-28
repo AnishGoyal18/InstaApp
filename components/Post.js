@@ -44,7 +44,7 @@ const Post = ({ postInfo }) => {
         <div>{likes} likes</div>
         <div className={styles.description}>
           <div onClick={() => handleProfileClick()}> {username}</div>
-          <div>{description?.length <= 70 ? description : description?.substring(0, 70) + '...'}</div>
+          <div>{description?.length <= 60 ? description : description?.substring(0, 60) + '...'}</div>
         </div>
       </div>
     </div >

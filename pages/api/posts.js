@@ -7,7 +7,7 @@ export default async function handler(req, res) {
             params: {
                 count: 10,
                 page: page,
-                client_id: 'FmhKyxys06arPYQwQiC3-YsPxMaTI-G2oRicCb1YzAk',
+                client_id: process.env.UNSPLASH_API_KEY,
             },
         });
 
