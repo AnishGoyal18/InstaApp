@@ -3,7 +3,7 @@ import styles from '../styles/Feed.module.css';
 import Statusbar from './Statusbar';
 import Post from '../components/Post';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import { usePostsContext } from '../pages/contexts/PostsContext';
+import { usePostsContext } from '../contexts/PostsContext';
 import Navbar from './Navbar';
 
 const Feed = () => {

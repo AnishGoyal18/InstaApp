@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { PostsContextProvider } from './contexts/PostsContext';
+import { PostsContextProvider } from '../contexts/PostsContext';
 import styles from '../styles/Home.module.css';
 import LeftSidebar from '../components/LeftSidebar';
 import Feed from '../components/Feed';

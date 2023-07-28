@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/Statusbar.module.css';
-import { usePostsContext } from '../pages/contexts/PostsContext';
+import { usePostsContext } from '../contexts/PostsContext';
 
 const Statusbar = () => {
     const { allPosts, setAllPosts } = usePostsContext();

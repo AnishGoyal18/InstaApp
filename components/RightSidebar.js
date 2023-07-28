@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/RightSidebar.module.css';
 import { BiAddToQueue, BiCompass, BiHeart, BiHomeAlt, BiMenu, BiMessage, BiPlay, BiSearch, BiUser } from 'react-icons/bi';
-import { usePostsContext } from '../pages/contexts/PostsContext';
+import { usePostsContext } from '../contexts/PostsContext';
 
 const RightSidebar = () => {
     const { allPosts, setAllPosts } = usePostsContext();
